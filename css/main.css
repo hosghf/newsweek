@@ -1,4 +1,9 @@
-
+a {
+  color: #000;
+}
+a:hover {
+  color: #aaa;
+}
 .red-color {
   color: red;
 }
@@ -9,6 +14,15 @@ p {
 ul {
   list-style: none;
   padding: 0;
+}
+.red-line {
+  width: 100%;
+  height: 3px;
+  background: red;
+  margin: 10px 0;
+}
+.spacer {
+  margin: 40px 0
 }
 .bullet {
   margin-left: 14px;
@@ -71,6 +85,13 @@ ul[class*="navbar-right"] {
   display: block;
   border-bottom: 4px solid red;
 }
+.lates-headline > a[class~=btn] {
+    padding: 12px 15%;
+    width: 100%;
+    margin: 8% auto;
+    background: #eee;
+ }
+
 .mike-text {
   margin-bottom: 40px;
   padding: 0 45px;
@@ -87,33 +108,32 @@ ul[class*="navbar-right"] {
 .col-first {
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  height: 530px;
+  height: 550px;
 }
 .col-sec {
   border-right: 1px solid #ddd;
-  height: 330px;
+
 }
 .border-row {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
 .col-first, .col-sec {
-  padding: 1.5%;
+  padding: 1.7% 2%;
 }
 .col-first h3, .col-sec h3{
   font-weight: 700;
   margin: 25px 0;
-  padding: 8px 12px;
+  padding: 1% 1.5%;
 }
 .col-first p, .col-sec p{
   font-size: 15px;
-  margin: 25px 0;
-  padding: 0 12px;
+  margin: 2% 0;
+  padding: 0 1.5%;
 }
 div:nth-child(4),div:nth-child(8) {
   border-right: none;
 }
-
 .row-black {
   padding: 25px 15px;
   background: #282828;
