@@ -11,6 +11,10 @@ p {
   font-size: 17px;
   margin: 15px 0;
 }
+.navbar {
+  border-bottom: 1px solid #fff;
+  box-shadow: 1px 1px 1px #aaa;
+}
 ul {
   list-style: none;
   padding: 0;
