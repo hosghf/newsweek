@@ -1,0 +1,252 @@
+
+.red-color {
+  color: red;
+}
+p {
+  font-size: 17px;
+  margin: 15px 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.bullet {
+  margin-left: 14px;
+  text-indent: -19px;
+}
+.bullet:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  color: red;
+  display: inline-block;
+  background: red;
+  margin-right: 10px;
+}
+.heading {
+  color: #000;
+  font-weight: 700;
+}
+.navbar-nav li {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 4px;
+}
+ul[class*="navbar-right"] {
+  margin-right: 15px;
+}
+.menu span{
+  display: none
+}
+#logo {
+  display: inline-block;
+  width: 47px;
+  height: 100%;
+  background: red;
+  color: #fff;
+  font-size: 38px;
+  font-family: serif;
+  font-weight: 700;
+  padding: 2px 5px;
+}
+.top-content {
+  position: relative;
+  top: 50px;
+  margin-bottom: 50px;
+}
+.top-content ul li {
+  padding: 12px;
+  border-bottom: 1px solid #aaa;
+  font-weight: 600;
+  font-size: 13px;
+}
+/* fnish navbar start .. */
+.img-wraper {
+  padding: 0;
+}
+#img-big {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-bottom: 4px solid red;
+}
+.mike-text {
+  margin-bottom: 40px;
+  padding: 0 45px;
+}
+.mike-text h1 {
+  font-weight: 600;
+  color: #000;
+}
+.mike-text h4 {
+  font-weight: 600;
+  font-size: 17px;
+  margin: 15px;
+}
+.col-first {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  height: 530px;
+}
+.col-sec {
+  border-right: 1px solid #ddd;
+  height: 330px;
+}
+.border-row {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.col-first, .col-sec {
+  padding: 1.5%;
+}
+.col-first h3, .col-sec h3{
+  font-weight: 700;
+  margin: 25px 0;
+  padding: 8px 12px;
+}
+.col-first p, .col-sec p{
+  font-size: 15px;
+  margin: 25px 0;
+  padding: 0 12px;
+}
+div:nth-child(4),div:nth-child(8) {
+  border-right: none;
+}
+
+.row-black {
+  padding: 25px 15px;
+  background: #282828;
+}
+.row-black .col-md-3 {
+  
+}
+.big-shot {
+  color: #fff;
+}
+.big-shot a[class*="btn"] {
+  background: #00B7FF;
+  border-radius: 0;
+  margin: 20px 0;
+}
+.big-shot p {
+  padding-left: 0;
+}
+.big-shot h4 {
+  color: #00B7FF;
+}
+.big-shot .bullet:before {
+  background: #00B7FF;
+}
+.this-week h4 {
+  margin: 30px 0 20px 20px;
+}
+.this-week h2,p {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+.this-week li {
+  padding: 10px 0 10px 4px;
+  border-bottom: 1px solid #aaa;
+  font-weight: 700;
+}
+.this-week > a[class~=btn] {
+  margin: 19px 25px;
+  padding: 10px;
+  color: red;
+}
+.heading1 {
+  font-weight: 700;
+  margin: 45px 0;
+  color: #000;
+}
+.most-read {
+  border-left: 1px solid #aaa;
+  margin: 10px 0;
+}
+.most-read ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.most-read li {
+  border-bottom: 1px solid #aaa;
+  padding: 8px 2px;
+  font-weight: 600;
+}
+.most-read li:first-child {
+  border-bottom: 4px solid #ff2222;
+}
+.most-read ul img {
+  float: left;
+  width: 135px;
+  height: 95px;
+  padding: 2px 12px 2px 0;
+} 
+footer {
+  border-top: 3px solid #ff0000;
+  color: #fff;
+  background: #000;
+  padding-top: 40px;
+}
+footer .left-div {
+  border-right: 1px solid #333;
+}
+footer .left-div a[class*="btn"] {
+  border-radius: 0;
+  border: none;
+  color: #fff;
+  background: #ff1111;
+  margin:0 0 20px 35px;
+}
+footer .left-div p {
+  color: #666;
+  margin:0 0 10px 20px;
+}
+footer .left-div ul {
+  list-style: none;
+  margin: 40px 0;
+}
+footer .left-ul li {
+  padding: 6px 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+.foot-top {
+  border-bottom: 1px solid #333;
+  padding-bottom: 25px;
+  padding: 15px;
+}
+.foot-top ul {
+  display: inline-block;
+}
+.foot-top ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 5px;
+}
+.foot-top a[class*="btn"] {
+  display: inline-block;
+  border: none;
+  border-radius: 0;
+  background: #00B7FF;
+  color: #fff;
+  padding: 14px 80px;
+  font-size: 16px;
+  font-weight: 600;
+  float: right;
+}
+.foot-bot > h2 {
+  font-family: serif;
+  padding: 15px;
+}
+.foot-bot ul {
+  margin: 14px 0;
+}
+.foot-bot li {
+  color: #666;
+  padding: 5px 0;
+}
+.foot-bot li[class*="bullet"] {
+  color: #fff;
+}
